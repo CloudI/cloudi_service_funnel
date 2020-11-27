@@ -37,7 +37,7 @@ defmodule CloudIServiceFunnel do
   end
 
   defp package do
-    [files: ~w(src doc rebar.config README.markdown),
+    [files: ~w(src doc rebar.config README.markdown LICENSE),
      maintainers: ["Michael Truog"],
      licenses: ["MIT"],
      links: %{"Website" => "https://cloudi.org",
